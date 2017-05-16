@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "CYPastelView.h"
 
 @interface ViewController ()
 
@@ -16,14 +17,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    CYPastelView *pastelView = [[CYPastelView alloc] initWithFrame:self.view.bounds];
+    pastelView.animationDuration = 3.0;
+    [pastelView startAnimation];
+    [self.view insertSubview:pastelView atIndex:0];
 }
-
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-
 
 @end

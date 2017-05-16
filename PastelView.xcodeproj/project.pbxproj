@@ -13,6 +13,7 @@
 		40134FF81ECAEE4E0040FD30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40134FF61ECAEE4E0040FD30 /* Main.storyboard */; };
 		40134FFA1ECAEE4E0040FD30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40134FF91ECAEE4E0040FD30 /* Assets.xcassets */; };
 		40134FFD1ECAEE4E0040FD30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40134FFB1ECAEE4E0040FD30 /* LaunchScreen.storyboard */; };
+		401350071ECAEE6E0040FD30 /* CYPastelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 401350061ECAEE6E0040FD30 /* CYPastelView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		40134FF91ECAEE4E0040FD30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		40134FFC1ECAEE4E0040FD30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		40134FFE1ECAEE4F0040FD30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		401350051ECAEE6E0040FD30 /* CYPastelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYPastelView.h; sourceTree = "<group>"; };
+		401350061ECAEE6E0040FD30 /* CYPastelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYPastelView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		40134FEC1ECAEE4E0040FD30 /* PastelView */ = {
 			isa = PBXGroup;
 			children = (
+				401350041ECAEE600040FD30 /* Classes */,
 				40134FF01ECAEE4E0040FD30 /* AppDelegate.h */,
 				40134FF11ECAEE4E0040FD30 /* AppDelegate.m */,
 				40134FF31ECAEE4E0040FD30 /* ViewController.h */,
@@ -77,6 +81,15 @@
 				40134FEE1ECAEE4E0040FD30 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		401350041ECAEE600040FD30 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				401350051ECAEE6E0040FD30 /* CYPastelView.h */,
+				401350061ECAEE6E0040FD30 /* CYPastelView.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +165,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				40134FF51ECAEE4E0040FD30 /* ViewController.m in Sources */,
+				401350071ECAEE6E0040FD30 /* CYPastelView.m in Sources */,
 				40134FF21ECAEE4E0040FD30 /* AppDelegate.m in Sources */,
 				40134FEF1ECAEE4E0040FD30 /* main.m in Sources */,
 			);
